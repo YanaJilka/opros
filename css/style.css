@@ -1,0 +1,126 @@
+body{
+    background-image: url(../img/фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+form{
+    background-color: #b4aa82;
+    max-width:600px ;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 0px 20px #871c21;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+@media (max-width: 375px) {
+    form{
+        padding: 10px;
+    }
+}
+input{
+    width: 55%;
+    min-width: 250px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #570418;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    transition: 0.4s;
+    color: #570418;
+    box-sizing: border-box;
+}
+input:focus{
+    box-shadow: 0px 0px 15px #570418;
+}
+fieldset{
+    border: 2px solid #570418;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+legend{
+    color: #570418;
+    font-size: 20px ;
+}
+label{
+    display:block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0px 5px 0px;
+}
+select{
+    width: 55%;
+    min-width: 250px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #570418;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    transition: 0.4s;
+    color: #570418;
+}
+input[type=radio]{
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+    min-width: 13px;
+}
+.radio{
+    display: inline-block;
+    margin-right: 5px;
+}
+textarea{
+    width: 80%;
+    min-width: 250px;
+    border: 2px #570418;
+    border-style: double;
+    outline: none;
+    color: #570418;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 500px;
+    transition: 00.4s;
+}
+textarea:focus{
+    box-shadow: 0px 0px 15px #570418;
+}
+input[type=checkbox]{
+    width: 13px;
+    height: 13px;
+    min-width: 13px;
+}
+.checkbox{
+    display: inline-block;
+}
+button{
+    width: 45%;
+    min-width: 250px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #570418;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    transition: 0.4s;
+    color: #570418;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: #570418;
+    color: rgb(255, 255, 255);
+}
+button[type=submit]:hover{
+    background-color: seagreen;
+    color: rgb(255, 255, 255);
+    border-color: seagreen;
+}
+p{
+    text-align: center;
+    color: floralwhite;
+}

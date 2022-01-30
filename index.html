@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос интересов</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="#">
+        <h1>Анкета интересов</h1>
+        <fieldset>
+            <legend>Контанктная информация</legend>
+            <input type="text" placeholder="Введите имя">
+            <input type="email" placeholder="Введите почту">
+            <input type="tel" placeholder="Введите номер телефона">
+        </fieldset>
+        <fieldset>
+            <legend>Личная информация</legend>
+            <label for="age">Сколько вам лет?</label>
+            <input type="number" id="age">
+            <label for="date">Укажите дату рождения</label>
+            <input type="date" id="date">
+            <label for="">Ваше любимое хобби</label>
+            <select name="" id="">
+                <option value="">Гулять с друзьями</option>
+                <option value="">Играть в футбол</option>
+                <option value="">Смотреть фильмы</option>
+                <option value="">Читать книги</option>
+                <option value="">Спать</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Дополтительная информация</legend>
+            <label for="">Укажите пол</label>
+            <input type="radio" id="man" name="gender">
+            <label for="man" class="radio">Муржской</label>
+            <input type="radio" id="woman" name="gender">
+            <label for="woman" class="radio">Женский</label>
+            <label for="">Оставте коментарий</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="checkbox" id="info">
+        <label class="checkbox" for="info">Я даю согласия на обработку моих данных</label >
+        <button type="reset">Отчистить</button>
+        <button type="submit">Отправить</button>
+        
+    </form>
+    <p>Все парава защищены и принадлежат YanaJilka</p>
+    
+</body>
+</html>
